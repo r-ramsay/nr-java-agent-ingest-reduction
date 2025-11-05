@@ -233,7 +233,7 @@ common: &default_settings
   # Recommended: Keep enabled for performance insights
   # For a more aggressive reducution, change this to false, while minimal in impact, it will incur a reduction, if the APM application has many SQL queries.
   slow_sql:
-    enabled: true
+    enabled: false
 
   # Strip Exception Messages - Remove sensitive data from exceptions
   # IMPACT: MINIMAL on ingest, but useful for security/compliance
