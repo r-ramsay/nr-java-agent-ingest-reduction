@@ -230,7 +230,7 @@ common: &default_settings
 
   # Slow SQL Traces
   # IMPACT: LOW - Only captures slow queries
-  # Recommended: Keep enabled for performance insights
+  # Recommended: Keep enabled for performance insights (Set to default for now)
   # For a more aggressive reducution, change this to false, while minimal in impact, it will incur a reduction, if the APM application has many SQL queries.
   slow_sql:
     enabled: false
